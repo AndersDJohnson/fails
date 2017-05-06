@@ -1,0 +1,16 @@
+{
+  "name": "fails",
+  "version": "1.0.0",
+  "description": "Detect whether a command fails, and invert exit code.",
+  "main": "index.js",
+  "bin": {
+    "fails": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository": "AndersDJohnson/fails",
+  "author": "Anders D. Johnson",
+  "license": "ISC"
+}

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fails = require('.')
 
 var command = process.argv[2]

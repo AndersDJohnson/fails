@@ -7,7 +7,7 @@
     "fails": "cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./cli.js 'exit 1'"
   },
   "keywords": [],
   "repository": "AndersDJohnson/fails",

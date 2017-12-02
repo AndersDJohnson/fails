@@ -1,6 +1,6 @@
 {
   "name": "fails",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Detect whether a command fails, and invert exit code.",
   "main": "index.js",
   "bin": {

@@ -1,12 +1,9 @@
-var exec = require('child_process').exec;
+var spawn = require('child_process').spawn;
 
 function fails (command, callback) {
-  var execed = exec(command)
+  var process = spawn(command, { shell: true, stdio: 'inherit' })
 
-  execed.stdout.pipe(process.stdout)
-  execed.stderr.pipe(process.stderr)
-
-  execed.on('exit', function (code) {
+  process.on('close', function (code) {
     if (code === 0) {
       return callback(false)
     }
